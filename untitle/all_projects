@@ -1,0 +1,42 @@
+<h1><strong>Additional Projects</strong><strong>&nbsp;</strong></h1>
+<p>&nbsp;</p>
+<p><strong>[ZS] Covariate Adjustment: </strong><span style="font-weight: 400;">&nbsp;As an experienced clinical RnD subject matter expert contributed to the development of a Point of View on Covariate Adjustment for ZS&rsquo;s business development. Demonstrated expertise in providing insights and guidance on implementing covariate adjustment methods to enhance and reduce bias during the clinical trials.&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><strong>[ZS] Quality Risk Management:&nbsp;</strong></p>
+<p>&nbsp;</p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Assisted in the business development efforts for quality risk management services specific to clinical trials, targeting pharmaceutical and biotechnology companies.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Collaborated with cross-functional teams, including data scientists, clinical research experts, and regulatory specialists, to develop comprehensive risk management strategies for clinical trials.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Lead client meetings and presentations, effectively articulating the value proposition of quality risk management in clinical trials and highlighting the firm's expertise from Data Science / Automation perspective. Understand the clients requirements of risk-based approaches in their clinical trial operations, ensuring compliance with regulatory requirements and enhancing overall trial quality, and trying to pitch in up-to-date AI developments to automate their processes.&nbsp;&nbsp;</span></li>
+</ul>
+<p><br /><br /></p>
+<p><strong>[ZS] Webinar Attendance Optimization&nbsp;</strong></p>
+<p><span style="font-weight: 400;">Led a team of 2 data scientists to improve the webinar attendance for the Bexsero Meningitis vaccine. Clients requested our expertise in utilizing AI/ML techniques to identify effective email types and phrases for engaging healthcare professionals (HCPs). However, we discovered that the clients lacked diversity in their email targeting strategy.&nbsp;</span></p>
+<p><span style="font-weight: 400;">We assisted in identifying similar target audiences and provided strategic guidance, emphasizing the importance of personalizing email content. This enabled the clients to enhance their future email marketing efforts by tailoring messages to specific recipients and improving engagement.</span></p>
+<p><br /><br /><br /><br /><br /></p>
+<p><strong>[ZS] Driver&rsquo;s Analysis:</strong><span style="font-weight: 400;"> Developed a predictive model to help understand the drivers to build a&nbsp; launch strategy for novel&nbsp; obesity drugs in the market based on market survey.&nbsp; Build a UI tool on Jupiter notebook, with ML model in the backend &amp; generated SHAP reports.</span></p>
+<p>&nbsp;</p>
+<p><strong>[ZS] CT Scan Covid Classification Public Competition&nbsp;</strong></p>
+<p>&nbsp;</p>
+<p><em><span style="font-weight: 400;">7th Rank in Public ML Challange</span></em><span style="font-weight: 400;">, pedicting if a person has COVID looking at Lung CT Scan Images</span></p>
+<p>&nbsp;</p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">CT scans can be used to detect COVID-19, but the process of manually analyzing these images is time-consuming and labor-intensive. This can lead to delays in diagnosis and treatment, which can have serious consequences for patients.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Developed a deep learning model that can classify CT scan images of COVID-19 patients with high accuracy. This model can be used to automate the process of image analysis, which can free up radiologists to focus on other tasks.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">My model achieved an accuracy of 98.91% on a test set of CT scan images. This is significantly higher than the accuracy of human radiologists, who typically achieve an accuracy of around 85%.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The model can help to improve the diagnosis and treatment of COVID-19 patients. It can also help to reduce the workload of radiologists, freeing them up to focus on other tasks.</span></li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>[Veritonic] Genre Detection :</strong><span style="font-weight: 400;"> A Music Information Retrieval project i.e. classifying audio music files into various popular genres. Built spectrogram &amp; extracted MFCC from the .wav files ( using FMA Dataset) using various CNN-RNN-based models &amp; got an accuracy close to 70%.</span></p>
+<p>&nbsp;</p>
+<p><strong>[Choose To Thinq] Anecdote Detection System - B.Tech - Research Project&nbsp; -</strong><span style="font-weight: 400;"> Pioneering application to automatically identify anecdotes analyzing a set of sentences as input using articles from Blinklist and contemporary techniques of natural language processing and Machine Learning. Key Aspects of the project include research, pattern and trend identification, statistics, rule-based estimation, natural language processing, Stanford NLP library, and Ensemble Models.</span></p>
+<p>&nbsp;</p>
+<p><strong>[Grad] Airbnb / Zillow&nbsp; - </strong><span style="font-weight: 400;">&nbsp;Kaggle Competition - Predicted in which country a new user will make his (or her) first booking. Tasks involved: data cleaning, exploratory analysis, and performance-boosting tactics. Zillow; predicted the important features that contribute in predicting the Z - Score and also ended up predicting the Z score using various ML models.&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><strong>[Grad] Wine Quality Predictor :</strong><span style="font-weight: 400;"> Analyzed the quality of Portuguese "Vinho Verde" wine given various physicochemical inputs. Tasks involved: Data Cleaning, Preprocessing, analysis of the dataset, visualization, and proficient R programming, fitted the model keeping in mind the assumptions of the models used. Reported an accuracy of more than 75% using Binomial Logistic Regression.&nbsp; Link:</span><a href="https://rpubs.com/shradhit/winequality"><span style="font-weight: 400;"> https://rpubs.com/shradhit/winequality</span></a></p>
+<p>&nbsp;</p>
+<p><strong>[UnderGrad] Sentence Completion - Research Project -</strong><span style="font-weight: 400;"> To automate the task of Sentence Completion in SAT that involves choosing the correct word from the given set of word options such that the resulting sentence is semantically correct. Our team tried to automate the manual task using Natural Language Processing.</span></p>
+<p><strong>[UnderGrad] Brain Injury Score Calculator </strong><span style="font-weight: 400;">:The software takes the input of the patient's condition and outputs the severity of his injury using the Glasgow Scale using complicated mathematical calculations. The project was made on python, and the framework used was&nbsp; panda3d.&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><strong>[UnderGrad] </strong><span style="font-weight: 400;">Repository for Publication Database - A web-based central database for storing details about all the papers published by the College of Engineering Pune &amp; faculty with the hierarchy of access. The technology stack used - is LDAP, HTML, JavaScript, CSS, etc.&nbsp;</span></p>
+<p>&nbsp;</p>
