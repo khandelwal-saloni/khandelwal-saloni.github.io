@@ -1,56 +1,25 @@
 <!DOCTYPE html>
 <html>
-<body>
-
-
-<h1> Title: Enhancing Pharma Sales through AI-driven Omnichannel Dynamic Targeting</h1>
-
-Introduction:
-In today's highly competitive pharmaceutical industry, maximizing sales and engaging healthcare professionals (HCPs) effectively is crucial. This article explores a successful project that utilized advanced AI and optimization techniques to develop an Omnichannel Dynamic Targeting solution for a big pharma client. Led by a team of talented Data Scientists and Data Engineers, the project aimed to deliver tailored call plans, generate prescribing messages, and provide valuable insights for targeting specific HCPs. By leveraging a sophisticated data pipeline and Explainable AI (XAI) models, the initiative resulted in a significant 35% improvement in sales.
-
-I. Understanding the Challenge:
-The pharmaceutical industry operates in a complex landscape with diverse data sources. The project identified the need to optimize call planning by considering various factors such as therapeutic area, prescribing behavior, and historical data. The goal was to develop a comprehensive targeting solution that maximized engagement and boosted sales.
-
-II. Building the Omnichannel Dynamic Targeting Pipeline:
-A. HCP Universe:
-
-The first step involved filtering healthcare professionals based on their therapeutic area expertise and collating relevant features.
-This ensured that the targeting algorithm considered only HCPs who prescribed the client's drugs.
-B. Target Augmentation:
-
-The brand team's preferences were incorporated into the targeting process, aligning the selection of HCPs with strategic objectives.
-C. Feature Engineering Pipeline:
-
-A master dataset was created, integrating HCP and weekly date-level information.
-Leveraging 105 weeks (2 years) of historical data, the pipeline predicted future NBRx sales, a vital input for subsequent stages.
-D. Explainable AI (XAI):
-
-HCPs were categorized as writers and non-writers.
-For writer HCPs, a regression model predicted their future HCP value based on NBRx sales.
-Non-writer HCPs were evaluated using a classification model to determine their probability of becoming writers. HCP value was calculated using predicted NBRx sales.
-SHAP analysis was employed to provide transparent explanations for the model's targeting decisions, enabling effective communication with stakeholders.
-E. Scenario Generation:
-
-XAI models' predictions were utilized to generate a scenario table, enabling flexible adjustments in call counts and HCP value predictions while keeping other features constant.
-F. Channel Optimization (CO):
-
-Convex optimization techniques were applied to determine the optimal number of calls per physician, considering constraints on total calls/emails per representative and incorporating trending logic.
-G. Downstream Integration:
-
-The output of CO was seamlessly integrated into c360, a front-end interface accessible to sales representatives.
-This integration streamlined the call planning process and facilitated data-driven decision-making.
-III. Enhancements to the Data Pipeline:
-The project's data pipeline incorporated additional components to enhance targeting accuracy and facilitate feedback loops:
-
-Feedback Loop Logic: Sales reps could tag HCPs as Dead, Moved, or Retired, removing them from the target list.
-Message Optimization Pipeline: Generated personalized email suggestions based on HCP behavior to enhance engagement.
-Trending Logic: Aligning short-term outputs with quarterly goals, ensuring consistency in the long-term pipeline.
-IV. Infrastructure and Technology:
-To develop and manage the AI applications, the team utilized Dataiku, an enterprise AI platform. The backend infrastructure leveraged AWS EMR and EKS technologies. The primary programming languages employed were Python, PySpark, and SQL, with some components implemented in R and Spark R.
-
-Conclusion:
-The Omnichannel Dynamic Targeting initiative achieved remarkable success, leading to a substantial 35% improvement in sales for the big pharma client. By leveraging advanced AI algorithms, optimization techniques, and a comprehensive data
-
-
-</body>
+	<head>
+		<title> Omnichannel </title>
+	</head>
+	<body>
+		<p>
+			<p>
+				<h1> Title: Enhancing Pharma Sales through AI-driven Omnichannel Dynamic Targeting</h1>
+			</p>
+			<p>Introduction: In today's highly competitive pharmaceutical industry, maximizing sales and engaging healthcare professionals (HCPs) effectively is crucial. This article explores a successful project that utilized advanced AI and optimization techniques to develop an Omnichannel Dynamic Targeting solution for a big pharma client. Led by a team of talented Data Scientists and Data Engineers, the project aimed to deliver tailored call plans, generate prescribing messages, and provide valuable insights for targeting specific HCPs. By leveraging a sophisticated data pipeline and Explainable AI (XAI) models, the initiative resulted in a significant 35% improvement in sales.</p>
+			<p>I. Understanding the Challenge: The pharmaceutical industry operates in a complex landscape with diverse data sources. The project identified the need to optimize call planning by considering various factors such as therapeutic area, prescribing behavior, and historical data. The goal was to develop a comprehensive targeting solution that maximized engagement and boosted sales.</p>
+			<p>II. Building the Omnichannel Dynamic Targeting Pipeline: A. HCP Universe:</p>
+			<p>The first step involved filtering healthcare professionals based on their therapeutic area expertise and collating relevant features. This ensured that the targeting algorithm considered only HCPs who prescribed the client's drugs. B. Target Augmentation:</p>
+			<p>The brand team's preferences were incorporated into the targeting process, aligning the selection of HCPs with strategic objectives. C. Feature Engineering Pipeline:</p>
+			<p>A master dataset was created, integrating HCP and weekly date-level information. Leveraging 105 weeks (2 years) of historical data, the pipeline predicted future NBRx sales, a vital input for subsequent stages. D. Explainable AI (XAI):</p>
+			<p>HCPs were categorized as writers and non-writers. For writer HCPs, a regression model predicted their future HCP value based on NBRx sales. Non-writer HCPs were evaluated using a classification model to determine their probability of becoming writers. HCP value was calculated using predicted NBRx sales. SHAP analysis was employed to provide transparent explanations for the model's targeting decisions, enabling effective communication with stakeholders. E. Scenario Generation:</p>
+			<p>XAI models' predictions were utilized to generate a scenario table, enabling flexible adjustments in call counts and HCP value predictions while keeping other features constant. F. Channel Optimization (CO):</p>
+			<p>Convex optimization techniques were applied to determine the optimal number of calls per physician, considering constraints on total calls/emails per representative and incorporating trending logic. G. Downstream Integration:</p>
+			<p>The output of CO was seamlessly integrated into c360, a front-end interface accessible to sales representatives. This integration streamlined the call planning process and facilitated data-driven decision-making. III. Enhancements to the Data Pipeline: The project's data pipeline incorporated additional components to enhance targeting accuracy and facilitate feedback loops:</p>
+			<p>Feedback Loop Logic: Sales reps could tag HCPs as Dead, Moved, or Retired, removing them from the target list. Message Optimization Pipeline: Generated personalized email suggestions based on HCP behavior to enhance engagement. Trending Logic: Aligning short-term outputs with quarterly goals, ensuring consistency in the long-term pipeline. IV. Infrastructure and Technology: To develop and manage the AI applications, the team utilized Dataiku, an enterprise AI platform. The backend infrastructure leveraged AWS EMR and EKS technologies. The primary programming languages employed were Python, PySpark, and SQL, with some components implemented in R and Spark R.</p>
+			<p>Conclusion: The Omnichannel Dynamic Targeting initiative achieved remarkable success, leading to a substantial 35% improvement in sales for the big pharma client. By leveraging advanced AI algorithms, optimization techniques, and a comprehensive data</p>
+		</p>
+	</body>
 </html>
