@@ -1,3 +1,3 @@
-# jiteshjha.github.io
+# shradhit.github.io
 
 Minimal landing page
