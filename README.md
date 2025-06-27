@@ -1,3 +1,3 @@
-# shradhit.github.io
+# khandelwal-saloni.github.io
 
 Minimal landing page
